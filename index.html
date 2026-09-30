@@ -1635,7 +1635,44 @@
         </div>
 
 
+        <div class="container mt-5 justify-content-center">
+            <h1 class="text-center">Contact Me!</h1>
+            <hr>
+            <br>
+            <form class="row g-3" action="https://formsubmit.co/dean.r.capuano@gmail.com" method="POST">
+                <div class="col-md-6">
+                    <label for="Name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" name="name" id="name" required>
+                </div>
+                <!-- Email Address -->
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" name="email" id="email" required>
+                </div>
 
+                <!-- Phone Number (Optional) -->
+                <div class="col-md-6">
+                    <label for="phoneNumber" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" name="phone" id="phone">
+                </div>
+
+                <!-- Message Box -->
+                <div class="col-12">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" name="message" id="message" rows="4" required></textarea>
+                </div>
+
+                <!-- FormSubmit Configurations (Optional but Recommended) -->
+                <!-- HoneyPot Anti-Spam protection -->
+                <input type="text" name="_honey" style="display:none">
+                <!-- Disable the default FormSubmit captcha if desired -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <!-- Submit Button -->
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary">Submit Form</button>
+                </div>
+            </form>
 
         <!--Contact Section-->
         <section class="page-section" id="contact">
